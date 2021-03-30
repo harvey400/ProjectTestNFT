@@ -1,1 +1,34 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.comment-input{
+ border: 1px solid gray;
+ border-radius: 25px;
+}
+
+.comment{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.reply-button{
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.reply-button:hover{
+    text-decoration: underline;
+}
+
+.post{
+    height: 200px;
+    border: 1px solid gray;
+}
